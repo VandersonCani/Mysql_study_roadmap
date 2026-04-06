@@ -1,1 +1,1 @@
-mysqldump -u root -p --default-character-set=utf8mb4 --single-transaction biblioteca > backups/biblioteca_backup.sql
+mysqldump -u root -p --set-gtid-purged=OFF --default-character-set=utf8mb4 --single-transaction biblioteca > backups\biblioteca_backup.sql

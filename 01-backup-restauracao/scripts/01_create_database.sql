@@ -1,0 +1,8 @@
+CREATE DATABASE biblioteca;
+USE biblioteca;
+
+CREATE TABLE IF NOT EXISTS clientes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100),
+  email VARCHAR(100)
+);

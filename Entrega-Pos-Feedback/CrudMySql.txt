@@ -1,0 +1,3 @@
+O comando CREATE USER é utilizado para criar usuários no banco de dados.
+O GRANT define permissões e o REVOKE remove essas permissões.
+Isso garante segurança e controle de acesso.
